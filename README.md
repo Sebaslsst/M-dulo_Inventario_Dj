@@ -1,1 +1,1 @@
-# M-dulo_Inventario_Dj
+# Módulo_Inventario_Dj
