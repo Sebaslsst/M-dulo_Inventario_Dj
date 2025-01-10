@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Principal - Restaurante</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+        }
+        .go-to-inventory {
+            text-align: center;
+            margin: 20px 0;
+        }
+        .btn {
+            padding: 10px 20px;
+            background-color: #FF9800;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 1rem;
+            transition: background-color 0.3s ease;
+        }
+        .btn:hover {
+            background-color: #F57C00;
+        }
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #4CAF50;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Página Principal del Restaurante</h1>
+    </header>
+
+    <!-- Nuevo botón para redirigir al inventario -->
+    <div class="go-to-inventory">
+        <a href="{% url 'inventario' %}" class="btn">Ir al Inventario</a>
+    </div>
+
+    <main>
+        <h2>Contenido Principal</h2>
+        <p>Bienvenido al sistema de gestión del restaurante. Desde aquí puedes acceder al inventario o realizar otras acciones importantes.</p>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Restaurante. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
